@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteName" parallel="tests">
+	
+	<test name="InquireAnAccount" allow-return-values="true">
+		<classes>
+			<class name="com.unisys.pom.testcases.InquireAnAccount" />
+		</classes>
+	</test>	
+</suite>
+
